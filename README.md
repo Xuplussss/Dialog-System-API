@@ -35,7 +35,7 @@ or
 curl -i -H 'Content-type:audio/wav' -X POST  http://localhost:8087/dialog_audio/{使用者ID}/ -F "file=@{語音檔名}.wav"
 ```
 ## Reference
-This package provides training code for the audio-visual emotion recognition paper. If you use this codebase in your experiments please cite: 
+This package provides training code for the BD APP paper. If you use this codebase in your experiments please cite: 
 
 ```
 
