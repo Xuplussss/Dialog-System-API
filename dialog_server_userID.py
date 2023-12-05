@@ -201,7 +201,7 @@ def main():
 
     # client: 
     # import requests
-    # r = requests.get('https://140.116.82.124:8087/get_wav/')
+    # r = requests.get('https://localhost:8087/get_wav/')
     # open('test.wav','wb').write(r.content)
 
     
@@ -233,7 +233,7 @@ async def upload(file: UploadFile = File()):
     # 
     # import requests
     # files1 = {'file': open('output1.wav', 'rb')}
-    # r = requests.post('https://140.116.82.124:8087/upload_wav_file/', files=files1)
+    # r = requests.post('https://localhost:8087/upload_wav_file/', files=files1)
     # print(r.text)
 
 
